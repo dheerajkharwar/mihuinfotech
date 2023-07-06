@@ -2362,3 +2362,10 @@ span.email-notes {
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
+.tbl2 li{
+text-align: left;
+}
+.tbl2 ul{
+  list-style: circle;
+  margin: 10px 50px;
+}
