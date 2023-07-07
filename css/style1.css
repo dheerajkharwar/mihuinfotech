@@ -1,0 +1,8 @@
+ul li{
+    text-align: left;
+    width: fit-content;
+  }
+  ul{
+    width: fit-content;
+    margin: auto;
+  }
