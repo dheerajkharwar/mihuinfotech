@@ -2374,3 +2374,24 @@ text-align: left;
   border-radius: 4px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+
+.display-no{
+  display: none;
+}
+
+.mpb-0{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mpt-0{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mpbt-0{
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
