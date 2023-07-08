@@ -2395,3 +2395,8 @@ text-align: left;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+.awesome-img img,.awesome-img video,.awesome-img iframe{
+  height: 300px;
+  width: 100%;
+}
