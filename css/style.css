@@ -2396,7 +2396,17 @@ text-align: left;
   padding-bottom: 0;
 }
 
-.awesome-img img,.awesome-img video,.awesome-img iframe{
-  height: 300px;
+.awesome-img img,.awesome-img iframe{
+  height: 250px;
   width: 100%;
 }
+
+.vbox-container img{
+  width: auto;
+  height: 95vh;
+}
+
+.vbox-content{
+  padding: 0;
+}
+
