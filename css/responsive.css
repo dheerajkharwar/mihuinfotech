@@ -6,7 +6,17 @@
 
 /* Normal desktop :992px. */
 
+@media screen and (max-width: 991px) {
+  .brand-name{
+    display: none;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1169px) {
+  .brand-name{
+    font-size: 20px;
+    display: none;
+  }
   .slider-content {
     padding: 146px 0;
   }
@@ -119,18 +129,17 @@
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
-
   .header-area {
-    height: 60px !important;
+    height: 70px !important;
     background: #000;
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
-    height: 60px  !important;
-    padding: 9px 0;
+    height: 70px  !important;
+    padding: 14px 0;
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
-    padding: 15px 0;
+    padding: 20px 0;
   }
   .nav.navbar-nav.navbar-right, .stick .nav.navbar-nav.navbar-right {
     background-color: #252525;
