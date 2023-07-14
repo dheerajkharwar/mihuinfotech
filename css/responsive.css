@@ -10,7 +10,10 @@
   .brand-name{
     display: none;
   }
-}
+  @media screen and (max-width: 767px) {
+    .navbar-header{
+      width: 100%;
+    }
 
 @media (min-width: 992px) and (max-width: 1169px) {
   .brand-name{
@@ -140,7 +143,6 @@
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
     padding: 20px 0;
-    float: right;
   }
   .nav.navbar-nav.navbar-right, .stick .nav.navbar-nav.navbar-right {
     background-color: #252525;

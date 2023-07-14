@@ -346,6 +346,7 @@ div#preloader {
   border: medium none;
   border-radius: 0;
   padding: 25px 0px;
+  float: right;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
