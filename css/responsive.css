@@ -140,6 +140,7 @@
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
     padding: 20px 0;
+    float: right;
   }
   .nav.navbar-nav.navbar-right, .stick .nav.navbar-nav.navbar-right {
     background-color: #252525;
