@@ -2416,3 +2416,7 @@ text-align: left;
   padding: 0;
 }
 
+.float-r{
+  float: left;
+}
+
