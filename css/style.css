@@ -2405,6 +2405,12 @@ text-align: left;
   width: auto;
   height: 95vh;
 }
+@media screen and (max-width:800px) {
+  .vbox-container img{
+    width: auto;
+    height: auto;
+  }
+}
 
 .vbox-content{
   padding: 0;
