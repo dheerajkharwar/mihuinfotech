@@ -186,7 +186,7 @@ ul {
 }
 
 input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"] {
-  -moz-appearance: none;
+  /* -moz-appearance: none; */
   box-shadow: none !important;
 }
 
@@ -1997,7 +1997,7 @@ div#preloader {
   display: block;
 }
 
-.left-blog ul li a:hover {}
+/* .left-blog ul li a:hover {} */
 
 .left-blog ul li a {
   color: #444;
@@ -2039,14 +2039,14 @@ div#preloader {
 
 .post-img {
   display: inline-block;
-  float: left;
+  /* float: left; */
   padding: 0 5px;
   width: 35%;
 }
 
 .pst-content {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 65%;
 }
 
@@ -2175,7 +2175,7 @@ div#preloader {
 
 .sharing-icon {
   display: inline-block;
-  float: right;
+  /* float: right; */
   padding: 13px 10px;
 }
 
@@ -2250,7 +2250,7 @@ div#preloader {
 
 .author-avatar {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 10%;
 }
 
@@ -2268,7 +2268,7 @@ div#preloader {
   margin-right: 5px
 }
 
-.comments-content-wrap span a:hover {}
+/* .comments-content-wrap span a:hover {} */
 
 span.post-time {
   margin-right: 5px
@@ -2289,7 +2289,7 @@ li.threaded-comments {
   margin-top: 60px;
 }
 
-h3.comment-reply-title {}
+/* h3.comment-reply-title {} */
 
 span.email-notes {
   color: #42414f;
