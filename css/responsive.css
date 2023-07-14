@@ -121,16 +121,28 @@
 @media (max-width: 767px) {
 
   .header-area {
+<<<<<<< HEAD
     height: 60px !important;
+=======
+    height: 70px !important;
+>>>>>>> addaaad (v1)
     background: #000;
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
+<<<<<<< HEAD
     height: 60px  !important;
     padding: 9px 0;
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
     padding: 15px 0;
+=======
+    height: 70px  !important;
+    padding: 16px 0;
+  }
+  .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
+    padding: 20px 0;
+>>>>>>> addaaad (v1)
   }
   .nav.navbar-nav.navbar-right, .stick .nav.navbar-nav.navbar-right {
     background-color: #252525;
@@ -297,3 +309,13 @@
     padding: 8px 20px;
   }
 }
+<<<<<<< HEAD
+=======
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .display-none{
+    display: none;
+  }
+}
+>>>>>>> addaaad (v1)
