@@ -1,0 +1,27 @@
+
+.form-group{
+    margin: 0;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+}
