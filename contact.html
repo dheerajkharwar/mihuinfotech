@@ -217,7 +217,7 @@
                   Your message has been sent. Thank you!
                 </div>
                 <div id="errormessage"></div>
-                <form action="https://formsubmit.co/your@email.com" method="post" role="form" class="contactForm">
+                <form action="https://formsubmit.co/dheerajkharwar9@gmail.com" method="post" role="form" class="contactForm">
                   <div class="form-group">
                     <input
                       type="text"
@@ -244,13 +244,12 @@
                   </div>
                   <div class="form-group">
                     <input
-                      type="text"
+                      type="tel"
                       class="form-control"
-                      name="subject"
-                      id="subject"
-                      placeholder="Subject"
-                      data-rule="minlen:4"
-                      data-msg="Please enter at least 8 chars of subject"
+                      name="phone"
+                      id="phone"
+                      placeholder="Your Phone No. - (Optional)"
+                      required
                     />
                     <div class="validation"></div>
                   </div>
@@ -265,6 +264,10 @@
                     ></textarea>
                     <div class="validation"></div>
                   </div>
+                  <input type="hidden" name="_subject" value="Contact Form - New submission!">
+                  <input type="hidden" name="_cc" value="dheerajkharwar101@gmail.com">
+                  <input type="hidden" name="_next" value="thanks.html">
+                  <input type="hidden" name="_captcha" value="false">
                   <div class="text-center">
                     <button type="submit">Send Message</button>
                   </div>
