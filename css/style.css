@@ -2431,3 +2431,20 @@ text-align: left;
   height: 150px;
 }
 
+/* Animation */
+#rr_tel{
+  color:rgb(110, 155, 5);
+  font-weight: 600;
+}
+#rr_tel:hover{
+  color:rgba(97, 138, 3, 0.568);
+}
+
+.single-services p{
+  text-align: justify;
+}
+.single-services{
+  min-height: 330px;
+  padding: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
