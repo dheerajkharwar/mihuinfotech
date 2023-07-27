@@ -2410,9 +2410,12 @@ text-align: left;
     width: auto;
     height: auto;
   }
-  #about{
-    padding-left: 25px;
-    padding-right: 25px;
+  .container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #about p{
+    text-align: justify;
   }
 }
 
