@@ -1749,10 +1749,13 @@ div#preloader {
 
 /*  15. Footer Area
 /*----------------------------------------*/
+footer h4, footer a, footer p, footer i{
+  color: white;
+}
 
 .footer-area {
   padding: 40px 0;
-  background: #f9f9f9;
+  background: #221f1f;
 }
 
 .footer-head p {
@@ -1849,7 +1852,7 @@ div#preloader {
 }
 
 .footer-area-bottom {
-  background: #f1f1f1 none repeat scroll 0 0;
+  background: #000 none repeat scroll 0 0;
   padding: 15px 0;
 }
 
@@ -2465,3 +2468,4 @@ text-align: left;
   right: 0;
   bottom: 50px;
 }
+
