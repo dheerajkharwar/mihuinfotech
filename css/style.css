@@ -2469,3 +2469,6 @@ text-align: left;
   bottom: 50px;
 }
 
+.privacy p, .privacy ol, .privacy h4{
+  text-align: justify;
+}
