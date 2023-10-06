@@ -1,6 +1,6 @@
 <html>
 <?php 
-require "dbcon.php";
+require ("dbcon.php");
 session_start();
 ?>
 <head>
