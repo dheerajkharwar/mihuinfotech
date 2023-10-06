@@ -25,7 +25,7 @@
   <body>
   <div class="container align-items-center">
     <h1 class="text-center">Login</h1>
-  <div style="width:40%;">
+  <div style="width:40%;margin:auto;">
   <form>
   <!-- Email input -->
   <div class="form-outline mb-4">
