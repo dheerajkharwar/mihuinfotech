@@ -1,10 +1,9 @@
+<!doctype html>
+<html lang="en">
 <?php 
 require "dbcon.php";
 session_start();
 ?>
-<!doctype html>
-<html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
