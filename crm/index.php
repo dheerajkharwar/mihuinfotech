@@ -23,9 +23,9 @@
     <title>CRM - Company Name</title>
   </head>
   <body>
-  <div class="container text-center">
+  <div class="container">
+    <h1 class="text-center">Login</h1>
   <div class="col-md-6">
-    <h1>Login</h1>
   <form>
   <!-- Email input -->
   <div class="form-outline mb-4">
