@@ -11,6 +11,7 @@
     <title>CRM - Company Name</title>
   </head>
   <body>
+  <div class="container">
   <form>
   <!-- Email input -->
   <div class="form-outline mb-4">
@@ -64,6 +65,7 @@
     </button>
   </div>
 </form>
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
