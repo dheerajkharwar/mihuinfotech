@@ -25,7 +25,7 @@
   <body>
   <div class="container">
   <div class="col-md-6">
-    <h1 class="text-center">Login</h1>
+    <h1>Login</h1>
   <form>
   <!-- Email input -->
   <div class="form-outline mb-4">
