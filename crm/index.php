@@ -38,5 +38,7 @@
         </div>
     </div>
 </body>
-
+<?php 
+echo "php code";
+?>
 </html>
