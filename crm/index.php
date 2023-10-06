@@ -23,7 +23,7 @@
     <title>CRM - Company Name</title>
   </head>
   <body>
-  <div class="container">
+  <div class="container text-center">
   <div class="col-md-6">
     <h1>Login</h1>
   <form>
