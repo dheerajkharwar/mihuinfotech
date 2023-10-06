@@ -1,3 +1,7 @@
+<?php 
+require "dbcon.php";
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 
@@ -39,6 +43,23 @@
     </div>
 </body>
 <?php 
-echo "php code";
+if(isset($_COOKIE['user'])){
+    header('Location: admin.php');
+    exit;
+}
+else if(isset($_POST['username'])&&isset($_POST['password'])){
+    $sql = "SELECT * FROM user WHERE username='"+$_POST['username']+"' AND password='"+$_POST['password']+"'";
+    $result = $conn->query($sql);
+    
+    if ($result->num_rows > 0) {
+      $_SESSION['username'] = $_POST['username'];
+
+      header('Location: admin.php');
+        exit;
+    } else {
+        echo '<script>alert("Wrong username or password")</script>';
+    }
+    $conn->close();
+}
 ?>
 </html>
