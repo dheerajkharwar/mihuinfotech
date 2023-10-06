@@ -23,7 +23,7 @@
     <title>CRM - Company Name</title>
   </head>
   <body>
-  <div class="container">
+  <div class="container col-md-6">
   <form>
   <!-- Email input -->
   <div class="form-outline mb-4">
