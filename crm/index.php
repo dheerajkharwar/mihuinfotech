@@ -52,7 +52,7 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
-      $_SESSION['username'] = $_POST['username'];
+      $_SESSION['user'] = $_POST['username'];
 
       header('Location: admin.php');
         exit;
