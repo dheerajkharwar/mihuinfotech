@@ -23,6 +23,7 @@
     <title>CRM - Company Name</title>
   </head>
   <body>
+  <div class="container">
   <form>
   <!-- Email input -->
   <div class="form-outline mb-4">
@@ -55,6 +56,7 @@
   <!-- Submit button -->
   <button type="submit" class="btn btn-primary btn-block">Sign in</button>
 </form>
+  </div>
 
     <!-- MDB -->
 <script
