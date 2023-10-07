@@ -23,7 +23,6 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             padding: 20px;
             height: fit-content;
             background-color: lightslategray;
-            display: inline-block;
         }
 
 #user{
@@ -41,6 +40,9 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
 .nav-right{
     width: 20%;
     border: 2px solid black;
+}
+.nav-left,.nav-right{
+    display: inline-block;
 }
     </style>
 </head>
