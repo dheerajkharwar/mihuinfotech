@@ -15,6 +15,12 @@ if(!isset($_SESSION['admin'])){
 </head>
 <body>
 <?php
+if(isset($_SESSION['admin'])){
+    echo "<div class='navbar'><div class='nav-left'><a href='javascript: void(0)' class='non-link'>Admin - CRM</a></div><div class='nav-right'><a id='lgout' href='admin_logout.php'>Logout</a></div></div>";
+    
+}
+?>
+<?php
     // When form submitted, insert values into the database.
     if (isset($_REQUEST['username'])) {
         // removes backslashes
