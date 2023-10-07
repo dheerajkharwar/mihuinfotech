@@ -24,7 +24,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     color: black;
     cursor: default;
 }
-nav a{
+.navbar a{
     text-decoration: none;
     padding: 5px 10px;
 }
