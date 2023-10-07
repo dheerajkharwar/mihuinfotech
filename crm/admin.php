@@ -14,7 +14,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - CRM</title>
     <style>
-        nav{
+        .navbar{
             width: 100%;
             height: fit-content;
             background-color: lightslategray;
@@ -35,7 +35,7 @@ nav a{
     </style>
 </head>
 <body>
-    <nav><div class="nav-right"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></nav>
+    <div class="navbar"><div class="nav-right"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></div>
     <h1>Admin - CRM</h1>
 </body>
 </html>
