@@ -33,7 +33,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     </style>
 </head>
 <body>
-    <nav><a id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></nav>
+    <nav><a href="" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></nav>
     <h1>Admin - CRM</h1>
 </body>
 </html>
