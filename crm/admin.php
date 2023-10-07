@@ -58,7 +58,7 @@ opacity: 0.8;
 <body>
 <?php
 if(isset($_SESSION['admin'])){
-    echo "<div class='navbar'><div class='nav-left'><a href='javascript: void(0)' class='non-link'>Admin - CRM</a></div><div class='nav-right'><a href='javascript: void(0)' class='non-link>".$_SESSION['admin']."</a><a id='lgout' href='admin_logout.php'>Logout</a></div></div>";
+    echo "<div class='navbar'><div class='nav-left'><a href='javascript: void(0)' class='non-link'>Admin - CRM</a></div><div class='nav-right'><a id='lgout' href='admin_logout.php'>Logout</a></div></div>";
 }
 ?>
 <?php
