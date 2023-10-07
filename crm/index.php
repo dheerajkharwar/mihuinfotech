@@ -59,8 +59,8 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
         header('Location: admin.php');
         exit;
     } else {
-        header('Location: index.php');
         echo '<script>alert("Wrong username or password")</script>';
+        header('Location: index.php');
     }
     $conn->close();
 }
