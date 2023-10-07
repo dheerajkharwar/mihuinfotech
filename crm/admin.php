@@ -44,7 +44,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     float: right;
 }
 .nav-left,.nav-right{
-    display: inline-block;
+    display: inline;
 }
     </style>
 </head>
