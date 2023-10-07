@@ -1,5 +1,5 @@
 <?php 
-include "dbconn.php";
+include "dbcon.php";
 session_start();
 if(!isset($_SESSION['admin'])){
     header('Location: admin.php');
