@@ -33,13 +33,16 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     text-decoration: none;
     padding: 5px 10px;
 }
-#user, #lgout{
-    float: right;
+.nav-left{
+    width: 80%;
+}
+.nav-right{
+    width: 20%;
 }
     </style>
 </head>
 <body>
-    <div class="navbar"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div>
+    <div class="navbar"><div class="nav-left"></div><div class="nav-right"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></div>
     <h1>Admin - CRM</h1>
 </body>
 </html>
