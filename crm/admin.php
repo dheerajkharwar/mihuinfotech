@@ -16,6 +16,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     <style>
         nav{
             width: 100%;
+            background-color: lightslategray;
         }
         nav p{
             cursor: pointer;
