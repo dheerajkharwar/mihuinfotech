@@ -27,7 +27,6 @@ if(!isset($_SESSION['admin'])){
         $email    = mysqli_real_escape_string($conn, $email);
         $password = stripslashes($_REQUEST['password']);
         $password = mysqli_real_escape_string($conn, $password);
-        $create_datetime = date("Y-m-d H:i:s");
         $query    = "INSERT into `user` (username, name, email, password)
                      VALUES ('$username', '$name', '$email', '" . md5($password) . "')";
         $result   = mysqli_query($connn, $query);
@@ -42,8 +41,8 @@ if(!isset($_SESSION['admin'])){
                   <p class='link'>Click here to <a href='registration.php'>registration</a> again.</p>
                   </div>";
         }
-    } else {
-?>
+    } 
+    ?>
     <form class="form" action="" method="post">
         <h1 class="login-title">Registration</h1>
         <input type="text" class="login-input" name="username" placeholder="Username" required />
@@ -52,8 +51,5 @@ if(!isset($_SESSION['admin'])){
         <input type="password" class="login-input" name="password" placeholder="Password" required>
         <input type="submit" name="submit" value="Register" class="login-button">
     </form>
-<?php
-    }
-?>
 </body>
 </html>
