@@ -20,6 +20,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
         }
         .navbar{
             padding: 0;
+            margin: 0;
             width: 100%;
             height: fit-content;
             background-color: lightslategray;
@@ -34,11 +35,11 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     padding: 5px 10px;
 }
 .nav-left{
-    width: 80%;
+    width: 75%;
     float: left;
 }
 .nav-right{
-    width: 20%;
+    width: 25;
     float: right;
     background-color: yellowgreen;
 }
