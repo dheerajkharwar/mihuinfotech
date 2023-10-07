@@ -59,6 +59,10 @@ opacity: 0.8;
 <?php
 if(isset($_SESSION['admin'])){
     echo "<div class='navbar'><div class='nav-left'><a href='javascript: void(0)' class='non-link'>Admin - CRM</a></div><div class='nav-right'><a id='lgout' href='admin_logout.php'>Logout</a></div></div>";
+    echo "
+    <ul style='margin-top:45px;margin-left:45px;'>
+        <li><a href='AddUser.php'>Add User</a></li>
+    </ul>";
 }
 ?>
 <?php
@@ -87,9 +91,6 @@ if(!isset($_SESSION['admin'])){ ?>
             </div>
         </div>
     </div>
-    <ul style="margin-top:45px;margin-left:45px;">
-        <li><a href="AddUser.php">Add User</a></li>
-    </ul>
     <?php 
     } 
     ?>
