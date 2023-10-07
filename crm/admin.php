@@ -14,6 +14,9 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - CRM</title>
     <style>
+        nav{
+            width: 100%;
+        }
         nav p{
             cursor: pointer;
             font-weight: 700;
