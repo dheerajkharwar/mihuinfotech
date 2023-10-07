@@ -44,7 +44,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     background-color: yellowgreen;
 }
 .nav-left,.nav-right{
-    padding: 25px 0;
+    padding: 25px 10px;
     display: inline-block;
     background-color: yellowgreen;
 }
