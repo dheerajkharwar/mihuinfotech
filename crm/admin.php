@@ -16,7 +16,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     <style>
         .navbar{
             width: 100%;
-            height: fit-content;
+            height: 60px;
             background-color: lightslategray;
         }
 
