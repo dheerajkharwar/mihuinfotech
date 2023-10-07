@@ -1,6 +1,6 @@
 <html>
 <?php 
-require ("dbcon.php");
+include "dbcon.php";
 session_start();
 ?>
 <head>
@@ -20,7 +20,7 @@ session_start();
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="index.php" method="post">
+                        <form id="login-form" class="form" action="" method="post">
                             <h3 class="text-center text-info">Login</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info">Username:</label><br>
@@ -46,7 +46,9 @@ if(isset($_SESSION['user'])){
     exit;
 }
 else if(isset($_POST['username'])&&isset($_POST['password'])){
-    $sql = "SELECT * FROM user WHERE username='"+$_POST['username']+"' AND password='"+$_POST['password']+"'";
+    $uname = mysqli_real_escape_string($conn, $_POST['username']);
+    $pass = mysqli_real_escape_string($conn, $_POST['password']);
+    $sql = "SELECT * FROM user WHERE username='".$uname."' AND password='".$pass."'";
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
