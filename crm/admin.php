@@ -57,7 +57,7 @@ if(!isset($_SESSION['admin'])){ ?>
 if(isset($_POST['username'])&&isset($_POST['password'])){
     $uname = mysqli_real_escape_string($conn, $_POST['username']);
     $pass = mysqli_real_escape_string($conn, $_POST['password']);
-    $sql = "SELECT * FROM `admin` WHERE username='".$uname."' AND password='".$pass."'";
+    $sql = "SELECT * FROM admin WHERE username='".$uname."' AND password='".md5($pass)."'";
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
