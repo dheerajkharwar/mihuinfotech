@@ -22,7 +22,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             padding: 0;
             margin: 0;
             width: 100%;
-            height: fit-content;
+            height: 70px;
             background-color: lightslategray;
         }
 
