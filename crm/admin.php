@@ -18,12 +18,6 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             cursor: pointer;
             font-weight: 700;
         }
-        #lgout{
-            display: none;
-        }
-        #user:hover #lgout{
-display: inherit;
-        }
 
     </style>
 </head>
