@@ -42,7 +42,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     border: 2px solid black;
 }
 .nav-left,.nav-right{
-    display: inline;
+    display: inline-block;
 }
     </style>
 </head>
