@@ -49,7 +49,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     </style>
 </head>
 <body>
-    <div class="navbar"><div class="nav-left"></div><div class="nav-right"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></div>
-    <h1>Admin - CRM</h1>
+    <div class="navbar"><div class="nav-left"><h1>Admin - CRM</h1></div><div class="nav-right"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></div>
+    
 </body>
 </html>
