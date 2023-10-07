@@ -17,7 +17,6 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
         nav{
             width: 100%;
             height: fit-content;
-            padding: 10px;
             background-color: lightslategray;
         }
 
@@ -31,7 +30,7 @@ nav a{
 }
 .nav-right{
     width: fit-content;
-    align-self: flex-end;
+    float: right;
 }
     </style>
 </head>
