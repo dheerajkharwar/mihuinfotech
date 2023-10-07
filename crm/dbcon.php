@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "u768844772_crm123";
-$password = "Crm@Mihu123";
+$password = "Crm@mihu123";
 $dbname = "u768844772_crm_db";
 
 // Create connection
