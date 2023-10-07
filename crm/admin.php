@@ -40,6 +40,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
 .nav-right{
     width: 20%;
     float: right;
+    background-color: yellowgreen;
 }
 .nav-left,.nav-right{
     display: inline;
