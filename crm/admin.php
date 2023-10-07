@@ -15,7 +15,7 @@ if(!isset($_SESSION['email'])&&!isset($_SESSION['username'])){
     <title>Admin - CRM</title>
 </head>
 <body>
-    <nav><a style="float: right;" href="logout.php">Logout</a></nav>
+    <nav><div style="float: right;"><?php echo "<b>".$_SESSION['$username']."</b>"; ?><a href="logout.php">Logout</a></div></nav>
     <h1>Admin - CRM</h1>
 </body>
 </html>
