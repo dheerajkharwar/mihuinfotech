@@ -28,14 +28,10 @@ nav a{
     text-decoration: none;
     padding: 5px 10px;
 }
-.nav-right{
-    width: fit-content;
-    align-self: flex-end;
-}
     </style>
 </head>
 <body>
-    <div class="navbar"><div class="nav-right"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></div>
+    <div class="navbar"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div>
     <h1>Admin - CRM</h1>
 </body>
 </html>
