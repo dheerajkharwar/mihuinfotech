@@ -43,7 +43,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     background-color: yellowgreen;
 }
 .nav-left,.nav-right{
-    display: inline;
+    display: inline-block;
     background-color: yellowgreen;
 }
     </style>
