@@ -19,7 +19,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             padding: 0;
         }
         .navbar{
-            padding: 20px 0;
+            padding: 0;
             width: 100%;
             height: fit-content;
             background-color: lightslategray;
@@ -43,6 +43,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     background-color: yellowgreen;
 }
 .nav-left,.nav-right{
+    padding: 0 25px;
     display: inline-block;
     background-color: yellowgreen;
 }
