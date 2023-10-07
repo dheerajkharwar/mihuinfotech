@@ -57,6 +57,7 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
         $_SESSION['user'] = $row['username'];
 
         header('Location: admin.php');
+        exit;
     } else {
         echo '<script>alert("Wrong username or password")</script>';
     }
