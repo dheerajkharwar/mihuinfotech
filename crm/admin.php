@@ -13,6 +13,19 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - CRM</title>
+    <style>
+        nav p{
+            cursor: pointer;
+            font-weight: 700;
+        }
+        a{
+            display: none;
+        }
+        nav p:hover nav.a{
+display: block;
+        }
+
+    </style>
 </head>
 <body>
     <nav><div style="float: right;"><p><?php echo $_SESSION['user'] ?></p><a href="logout.php">Logout</a></div></nav>
