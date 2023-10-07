@@ -1,3 +1,12 @@
+
+<?php 
+include "dbcon.php";
+session_start();
+if(!isset($_SESSION['email'])&&!isset($_SESSION['username'])){
+    header('Location: index.php');
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +15,7 @@
     <title>Admin - CRM</title>
 </head>
 <body>
+    <nav><a style="float: right;" href="signout.logout">Logout</a></nav>
     <h1>Admin - CRM</h1>
 </body>
 </html>
