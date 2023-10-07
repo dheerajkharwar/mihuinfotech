@@ -104,6 +104,7 @@ if(isset($_POST['username'])&&isset($_POST['password'])){
     if ($result->num_rows > 0) {
         $row = mysqli_fetch_array($result);
         $_SESSION['admin'] = $row['username'];
+        header('Location: admin.php');
         exit;
     } else {
         echo '<script>alert("Wrong username or password")</script>';
