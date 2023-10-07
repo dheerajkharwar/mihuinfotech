@@ -39,7 +39,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     float: left;
 }
 .nav-right{
-    width: 25;
+    width: 25%;
     float: right;
     background-color: yellowgreen;
 }
