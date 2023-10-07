@@ -57,7 +57,7 @@ if(isset($_SESSION['admin'])){
         <input type="text" class="login-input" name="username" placeholder="Username" required />
         <input type="text" class="login-input" name="name" placeholder="Name" required />
         <input type="text" class="login-input" name="email" placeholder="Email Adress" required>
-        <textarea class="login-input"  name="address" id="address" cols="20" rows="4"></textarea>
+        <textarea class="login-input"  name="address" placeholder="Address" style="height:75px;"></textarea>
         <input type="password" class="login-input" name="password" placeholder="Password" required>
         <input type="submit" name="submit" value="Register" class="login-button">
     </form>
