@@ -31,10 +31,12 @@ if(isset($_SESSION['admin'])){
         $name = mysqli_real_escape_string($connn, $name);
         $email    = stripslashes($_REQUEST['email']);
         $email    = mysqli_real_escape_string($conn, $email);
+        $address = stripslashes($_REQUEST['address']);
+        $address = mysqli_real_escape_string($connn, $address);
         $password = stripslashes($_REQUEST['password']);
         $password = mysqli_real_escape_string($conn, $password);
         $query    = "INSERT into user (username, name, email, password)
-                     VALUES ('$username', '$name', '$email', '" . md5($password) . "')";
+                     VALUES ('$username', '$name', '$email', '$address', '" . md5($password) . "')";
         $result   = mysqli_query($connn, $query);
         if ($result) {
             echo "<div class='form'>
@@ -55,6 +57,7 @@ if(isset($_SESSION['admin'])){
         <input type="text" class="login-input" name="username" placeholder="Username" required />
         <input type="text" class="login-input" name="name" placeholder="Name" required />
         <input type="text" class="login-input" name="email" placeholder="Email Adress" required>
+        <textarea name="address" id="address" cols="10" rows="4"></textarea>
         <input type="password" class="login-input" name="password" placeholder="Password" required>
         <input type="submit" name="submit" value="Register" class="login-button">
     </form>
