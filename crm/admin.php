@@ -25,7 +25,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             background-color: lightslategray;
         }
 
-#user{
+.non-link{
     color: black;
     cursor: default;
 }
@@ -49,7 +49,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     </style>
 </head>
 <body>
-    <div class="navbar"><div class="nav-left"><h1>Admin - CRM</h1></div><div class="nav-right"><a href="javascript: void(0)" id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></div>
+    <div class="navbar"><div class="nav-left"><a href="javascript: void(0)" class="non-link">Admin - CRM</a></div><div class="nav-right"><a href="javascript: void(0)" class="non-link"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></div></div>
     
 </body>
 </html>
