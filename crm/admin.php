@@ -16,6 +16,6 @@ if(!isset($_SESSION['email'])&&!isset($_SESSION['username'])){
 </head>
 <body>
     <nav><div style="float: right;"><a href="logout.php">Logout</a></div></nav>
-    <h1><?php echo $_SESSION['username']; ?> - CRM</h1>
+    <h1><?php echo $_SESSION["username"]; ?> - CRM</h1>
 </body>
 </html>
