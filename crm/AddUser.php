@@ -41,7 +41,8 @@ if(!isset($_SESSION['admin'])){
                   <p class='link'>Click here to <a href='registration.php'>registration</a> again.</p>
                   </div>";
         }
-    } 
+    }
+    else{ 
     ?>
     <form class="form" action="" method="post">
         <h1 class="login-title">Registration</h1>
@@ -51,5 +52,6 @@ if(!isset($_SESSION['admin'])){
         <input type="password" class="login-input" name="password" placeholder="Password" required>
         <input type="submit" name="submit" value="Register" class="login-button">
     </form>
+    <?php } ?>
 </body>
 </html>
