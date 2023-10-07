@@ -23,6 +23,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             padding: 20px;
             height: fit-content;
             background-color: lightslategray;
+            display: inline-block;
         }
 
 #user{
