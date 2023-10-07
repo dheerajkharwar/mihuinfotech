@@ -32,6 +32,7 @@ nav a{
 .nav-right{
     width: fit-content;
     float: right;
+    height: inherit;
 }
     </style>
 </head>
