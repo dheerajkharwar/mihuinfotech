@@ -34,7 +34,7 @@ if(isset($_SESSION['admin'])){
         $email    = mysqli_real_escape_string($conn, $email);
         $password = stripslashes($_REQUEST['password']);
         $password = mysqli_real_escape_string($conn, $password);
-        $query    = "INSERT into `user` (username, name, email, password)
+        $query    = "INSERT into user (username, name, email, password)
                      VALUES ('$username', '$name', '$email', '" . md5($password) . "')";
         $result   = mysqli_query($connn, $query);
         if ($result) {
