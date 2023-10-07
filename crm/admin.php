@@ -19,7 +19,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             padding: 0;
         }
         .navbar{
-            padding: 0;
+            padding: 20px 0;
             width: 100%;
             height: fit-content;
             background-color: lightslategray;
