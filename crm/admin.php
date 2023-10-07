@@ -22,7 +22,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             display: none;
         }
         #user:hover #lgout{
-display: block;
+display: inherit;
         }
 
     </style>
