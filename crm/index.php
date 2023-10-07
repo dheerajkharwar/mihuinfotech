@@ -42,13 +42,13 @@ session_start();
 </body>
 <?php 
 if(isset($_SESSION['user'])){
-    header('Location: admin.php');
+    header('Location: user.php');
     exit;
 }
-else if(isset($_POST['username'])&&isset($_POST['password'])){
+else if(isset($_POST['username']) && isset($_POST['password'])){
     $uname = mysqli_real_escape_string($conn, $_POST['username']);
     $pass = mysqli_real_escape_string($conn, $_POST['password']);
-    $sql = "SELECT * FROM user WHERE username='".$uname."' AND password='".$pass."'";
+    $sql = "SELECT * FROM user WHERE username='".$uname."' AND password='" . md5($password) . "'";
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
@@ -56,7 +56,7 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
         $_SESSION['email'] = $row['email'];
         $_SESSION['user'] = $row['username'];
 
-        header('Location: admin.php');
+        header('Location: user.php');
         exit;
     } else {
         echo '<script>alert("Wrong username or password")</script>';
