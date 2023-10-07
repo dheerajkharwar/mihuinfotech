@@ -52,9 +52,11 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
-      $_SESSION['user'] = $_POST['username'];
+        $row = mysqli_fetch_array($result);
+        $_SESSION['email'] = $row['email'];
+        $_SESSION['user'] = $row['username'];
 
-      header('Location: admin.php');
+        header('Location: admin.php');
         exit;
     } else {
         echo '<script>alert("Wrong username or password")</script>';
