@@ -2,7 +2,7 @@
 <?php 
 include "dbcon.php";
 session_start();
-if(!isset($_SESSION['email'])&&!isset($_SESSION['username'])){
+if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     header('Location: index.php');
     exit;
 }
@@ -15,7 +15,7 @@ if(!isset($_SESSION['email'])&&!isset($_SESSION['username'])){
     <title>Admin - CRM</title>
 </head>
 <body>
-    <nav><div style="float: right;"><a href=""><?php echo $_SESSION['username'] ?></a><a href="logout.php">Logout</a></div></nav>
+    <nav><div style="float: right;"><p><?php echo $_SESSION['user'] ?></p><a href="logout.php">Logout</a></div></nav>
     <h1>Admin - CRM</h1>
 </body>
 </html>
