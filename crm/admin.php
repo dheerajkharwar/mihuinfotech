@@ -35,18 +35,16 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     padding: 5px 10px;
 }
 .nav-left{
-    width: 75%;
+    width: fit-content;
     float: left;
 }
 .nav-right{
-    width: 25%;
+    width: fit-content;
     float: right;
-    background-color: yellowgreen;
 }
 .nav-left,.nav-right{
     padding: 25px 10px;
     display: inline-block;
-    background-color: yellowgreen;
 }
     </style>
 </head>
