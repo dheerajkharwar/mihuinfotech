@@ -16,7 +16,8 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     <style>
         nav{
             width: 100%;
-            height: 70px;
+            height: fit-content;
+            padding: 10px;
             background-color: lightslategray;
         }
         nav p{
