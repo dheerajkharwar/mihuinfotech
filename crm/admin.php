@@ -24,7 +24,13 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             cursor: pointer;
             font-weight: 700;
         }
-
+#lgout{
+    position: absolute;
+    display: none;
+}
+#user:hover #logout{
+    display: block;
+}
     </style>
 </head>
 <body>
