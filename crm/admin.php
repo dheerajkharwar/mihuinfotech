@@ -20,15 +20,12 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             padding: 10px;
             background-color: lightslategray;
         }
-#lgout{
-    position: absolute;
-    display: none;
-}
+
 #user{
-    text-decoration: none;
+    color: black;
 }
-#user:hover #logout{
-    display: block;
+nav a{
+    text-decoration: none;
 }
     </style>
 </head>
