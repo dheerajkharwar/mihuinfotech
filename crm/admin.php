@@ -44,6 +44,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
 }
 .nav-left,.nav-right{
     display: inline;
+    background-color: yellowgreen;
 }
     </style>
 </head>
