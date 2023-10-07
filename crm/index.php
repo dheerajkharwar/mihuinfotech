@@ -60,7 +60,6 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
         exit;
     } else {
         echo '<script>alert("Wrong username or password")</script>';
-        header('Location: index.php');
     }
     $conn->close();
 }
