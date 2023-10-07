@@ -20,13 +20,12 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
             padding: 10px;
             background-color: lightslategray;
         }
-        nav p{
-            cursor: pointer;
-            font-weight: 700;
-        }
 #lgout{
     position: absolute;
     display: none;
+}
+#user{
+    text-decoration: none;
 }
 #user:hover #logout{
     display: block;
@@ -34,7 +33,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     </style>
 </head>
 <body>
-    <nav><p id="user"><?php echo $_SESSION['user'] ?></p><a id="lgout" href="logout.php">Logout</a></nav>
+    <nav><a id="user"><?php echo $_SESSION['user'] ?></a><a id="lgout" href="logout.php">Logout</a></nav>
     <h1>Admin - CRM</h1>
 </body>
 </html>
