@@ -51,6 +51,9 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     color: aliceblue;
     border-radius: 5px;
 }
+#lgout:hover{
+    opacity: 0.8;
+}
     </style>
 </head>
 <body>
