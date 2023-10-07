@@ -31,7 +31,7 @@ session_start();
                                 <input type="text" name="password" id="password" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-info btn-md mt-4 mb-4" value="submit">
+                                <input type="submit" name="submit" class="btn btn-info btn-md mt-4 mb-0" value="submit">
                             </div>
                         </form>
                     </div>
