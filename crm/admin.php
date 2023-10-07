@@ -35,9 +35,11 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
 }
 .nav-left{
     width: 80%;
+    border: 2px solid black;
 }
 .nav-right{
     width: 20%;
+    border: 2px solid black;
 }
     </style>
 </head>
