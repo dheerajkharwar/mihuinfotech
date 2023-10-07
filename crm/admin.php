@@ -46,6 +46,11 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     padding: 25px 10px;
     display: inline-block;
 }
+#lgout{
+    background-color: darkslategrey;
+    color: aliceblue;
+    border-radius: 5px;
+}
     </style>
 </head>
 <body>
