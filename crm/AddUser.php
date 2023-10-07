@@ -12,6 +12,7 @@ if(!isset($_SESSION['admin'])){
     <meta charset="utf-8"/>
     <title>Add User</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <?php
