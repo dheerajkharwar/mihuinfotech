@@ -30,6 +30,7 @@ nav a{
 }
 .nav-right{
     width: fit-content;
+    float: right;
 }
     </style>
 </head>
