@@ -27,6 +27,7 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
 }
 nav a{
     text-decoration: none;
+    padding: 5px 10px;
 }
     </style>
 </head>
