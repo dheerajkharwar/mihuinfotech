@@ -21,14 +21,14 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
         #lgout{
             display: none;
         }
-        nav p:hover #lgout{
+        #user:hover #lgout{
 display: block;
         }
 
     </style>
 </head>
 <body>
-    <nav><div style="float: right;"><p><?php echo $_SESSION['user'] ?></p><a id="lgout" href="logout.php">Logout</a></div></nav>
+    <nav><div style="float: right;"><p id="user"></p><?php echo $_SESSION['user'] ?></p><a id="lgout" href="logout.php">Logout</a></div></nav>
     <h1>Admin - CRM</h1>
 </body>
 </html>
