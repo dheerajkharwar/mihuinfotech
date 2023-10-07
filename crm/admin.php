@@ -33,6 +33,9 @@ if(!isset($_SESSION['email']) || !isset($_SESSION['user'])){
     text-decoration: none;
     padding: 5px 10px;
 }
+#user, #logout{
+    float: right;
+}
     </style>
 </head>
 <body>
