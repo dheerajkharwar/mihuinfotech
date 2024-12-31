@@ -1,3 +1,14 @@
+#festival-img {
+  position: fixed;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#festival-img img {
+  width: 100%;
+}
+
 /*
   Theme Name: eBusiness
   Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
