@@ -1,20 +1,26 @@
-@media screen and (max-width: 600px) {
+@media only screen and(max-width: 600px) {
   #festival-img {
-    display: none;
+    max-height: 50vh;
   }
 }
 #festival-img {
   position: fixed;
   display: block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 90px;
+  right: 20px;
+  /* transform: translate(-50%, -50%); */
   z-index: 10000;
   box-sizing: border-box;
+  max-height: 400px;
+  max-width: 350px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 #festival-img img {
   /* height: 100vh; */
   box-sizing: border-box;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 #festival-img span {
   position: absolute;
