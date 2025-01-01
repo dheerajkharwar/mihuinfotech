@@ -1,8 +1,8 @@
 <?php
 include('config.php');
-if (!isset($_GET['q'])) {
-  header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-}
+// if (!isset($_GET['q'])) {
+//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
