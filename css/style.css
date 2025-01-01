@@ -14,11 +14,17 @@
     height: 40vh;
     width: 40%;
   }
+  #festival-img img {
+    height: 40vh;
+    width: 40%;
+  }
 }
 #festival-img img {
   box-sizing: border-box;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  height: 400px;
+  width: 350px;
 }
 #festival-img span {
   position: absolute;
