@@ -41,7 +41,7 @@ if (isset($_POST['name'])) {
     // $headers .= 'Cc: ranjan.mihuinfotech@gmail.com' . "\r\n";
 
     mail($to, $subject, $message, $headers);
-    echo "<script>alert('Form Submitted successfully');window.location.href = 'contact.html';</script>";
+    echo "<script>alert('Form Submitted successfully');window.location.href = 'contact.php';</script>";
 } else if (isset($_POST['email_sub'])) {
     $to = "dheerajkharwar9@gmail.com, mihu.infotech@gmail.com";
     $subject = "New Subscriber - Mihu Systems";
@@ -69,8 +69,8 @@ if (isset($_POST['name'])) {
     $headers .= 'From: <info@mihusystems.in>' . "\r\n";
     // $headers .= 'Cc: ranjan.mihuinfotech@gmail.com' . "\r\n";
     mail($to, $subject, $message, $headers);
-    echo "<script>alert('You Are Subscribed For Our News And Promotions!');window.location.href = 'contact.html';</script>";
+    echo "<script>alert('You Are Subscribed For Our News And Promotions!');window.location.href = 'contact.php';</script>";
 } else {
-    header("location: contact.html");
+    header("location: contact.php");
 }
 ?>
