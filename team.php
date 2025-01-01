@@ -1,7 +1,7 @@
 <?php
 include('config.php');
 if (!isset($_GET['query'])) {
-  header('Location: ' . $currentURL . '?query=' . generateRandomString());
+  header('Location: ' . $currentURL . '?query=' . generateRandomString(64));
 }
 ?>
 <!DOCTYPE html>
