@@ -564,7 +564,7 @@ include('config.php');
 
   <div id="festival-img">
     <span id="close-festiv-img">x</span>
-    <img src="img/Black and Gold Happy New Year Greeting Instagram Post (1).png" alt="Happy New Year">
+    <img src="img/happy.png" alt="Happy New Year">
   </div>
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
