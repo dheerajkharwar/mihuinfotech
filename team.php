@@ -43,6 +43,75 @@ include('config.php');
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet" />
+  <style>
+    /* Festival-IMG  */
+    #festival-img {
+      position: fixed;
+      top: 80px;
+      right: 10px;
+      z-index: 10000;
+      box-sizing: border-box;
+      height: 400px;
+      width: 350px;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      #festival-img {
+        width: 50% !important;
+        height: 50vh !important;
+      }
+
+      #festival-img img {
+        height: 100% !important;
+      }
+
+      #festival-img span {
+        box-sizing: border-box;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: red;
+        z-index: 10020;
+        cursor: pointer;
+        font-size: 16px !important;
+        background-color: white;
+        width: fit-content;
+        padding: 0 2px 2px !important;
+        opacity: 0.8;
+        font-weight: 600;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    #festival-img img {
+      box-sizing: border-box;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    #festival-img span {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      color: red;
+      z-index: 10020;
+      cursor: pointer;
+      font-size: 20px;
+      background-color: white;
+      width: fit-content;
+      padding: 0 6px 3px;
+      opacity: 0.8;
+      font-weight: 600;
+    }
+
+    #festival-img span:hover {
+      opacity: 1;
+    }
+  </style>
   <link rel="stylesheet" href="css/style1.css">
 
   <!-- Responsive Stylesheet File -->
