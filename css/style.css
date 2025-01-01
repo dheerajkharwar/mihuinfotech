@@ -11,7 +11,8 @@
 }
 @media only screen and (max-width: 600px) {
   #festival-img {
-    width: 50%;
+    width: auto !important;
+    height: auto !important;
   }
 }
 #festival-img img {
