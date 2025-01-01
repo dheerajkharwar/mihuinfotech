@@ -1,7 +1,7 @@
 #festival-img {
   position: fixed;
-  top: 90px;
-  right: 20px;
+  top: 80px;
+  right: 10px;
   z-index: 10000;
   box-sizing: border-box;
   height: 400px;
@@ -11,20 +11,13 @@
 }
 @media only screen and (max-width: 600px) {
   #festival-img {
-    height: 40vh;
-    width: 40%;
-  }
-  #festival-img img {
-    height: 40vh;
-    width: 40%;
+    width: 50%;
   }
 }
 #festival-img img {
   box-sizing: border-box;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  height: 400px;
-  width: 350px;
 }
 #festival-img span {
   position: absolute;
