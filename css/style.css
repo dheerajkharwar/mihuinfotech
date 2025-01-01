@@ -85,7 +85,6 @@
   /* animation: festImgAnimation 3s linear 0s infinite forwards; */
 }
 #festival-img img {
-  /* height: 100vh; */
   box-sizing: border-box;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
