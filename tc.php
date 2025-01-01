@@ -1,6 +1,6 @@
 <?php
 include('config.php');
-if (!isset($_GET['query'])) {
+if (!isset($_GET['q'])) {
     header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
 }
 ?>
