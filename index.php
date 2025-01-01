@@ -3,8 +3,6 @@ include('config.php');
 if (!isset($_GET['q'])) {
     header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
 }
-echo $base;
-die;
 ?>
 <!DOCTYPE html>
 <html lang="en">
