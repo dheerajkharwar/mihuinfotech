@@ -1,88 +1,11 @@
-@media screen and (max-width: 600px) {
-  #festival-img {
-    max-height: 50vh;
-    max-width: auto;
-  }
-}
-@keyframes festImgAnimation {
-  0% {
-    display: none;
-  }
-  5% {
-    display: block;
-  }
-  10% {
-    right: 0%;
-  }
-  15% {
-    right: 5%;
-  }
-  20% {
-    right: 10%;
-  }
-  25% {
-    right: 15%;
-  }
-  30% {
-    right: 20%;
-  }
-  35% {
-    right: 25%;
-  }
-  40% {
-    right: 30%;
-  }
-  45% {
-    right: 35%;
-  }
-  50% {
-    right: 40%;
-  }
-  55% {
-    right: 45%;
-  }
-  60% {
-    right: 50%;
-  }
-  65% {
-    right: 55%;
-  }
-  70% {
-    right: 60%;
-  }
-  75% {
-    right: 65%;
-  }
-  80% {
-    right: 70%;
-  }
-  85% {
-    right: 75%;
-  }
-  90% {
-    right: 80%;
-  }
-  95% {
-    right: 85%;
-  }
-  99% {
-    right: 90%;
-  }
-  100% {
-    right: 100%;
-  }
-}
 #festival-img {
   position: fixed;
   top: 90px;
   right: 20px;
   z-index: 10000;
   box-sizing: border-box;
-  max-height: 400px;
-  max-width: 350px;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  /* animation: festImgAnimation 3s linear 0s infinite forwards; */
 }
 #festival-img img {
   box-sizing: border-box;
