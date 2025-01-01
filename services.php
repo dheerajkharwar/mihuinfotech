@@ -19,67 +19,37 @@ include('config.php');
     name="description" />
 
   <!-- Favicons -->
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/favicon.png" rel="icon" />
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="img/favicon.png" rel="icon" />
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
   <link
-    href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
     rel="stylesheet" />
 
   <!-- Bootstrap CSS File -->
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Libraries CSS Files -->
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/nivo-slider/css/nivo-slider.css" rel="stylesheet" />
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/owlcarousel/owl.carousel.css" rel="stylesheet" />
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/owlcarousel/owl.transitions.css" rel="stylesheet" />
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/animate/animate.min.css" rel="stylesheet" />
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/venobox/venobox.css" rel="stylesheet" />
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet" />
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/venobox/venobox.css" rel="stylesheet" />
 
   <!-- Nivo Slider Theme -->
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }css/nivo-slider-theme.css" rel="stylesheet" />
+  <link href="css/nivo-slider-theme.css" rel="stylesheet" />
 
   <!-- Main Stylesheet File -->
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }css/style.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }css/style1.css" />
+  <link rel="stylesheet" href="css/style1.css" />
 
   <!-- Responsive Stylesheet File -->
-  <link href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }css/responsive.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }contactform/contactform.css" />
+  <link rel="stylesheet" href="contactform/contactform.css" />
 
   <style>
     p {
@@ -112,12 +82,8 @@ include('config.php');
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
                 <!-- Brand -->
-                <img class="float-l" src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/logo.png" alt="Mihu Systems" title="Mihu Systems" />
-                <a class="navbar-brand page-scroll sticky-logo" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }index.php">
+                <img class="float-l" src="img/logo.png" alt="Mihu Systems" title="Mihu Systems" />
+                <a class="navbar-brand page-scroll sticky-logo" href="index.php">
                   <h1 class="brand-name"><span>Mihu </span>Systems</h1>
                   <p class="tagline" style="font-size: 11px;color: white;width: fit-content;margin: auto;">
                     Empowering
@@ -131,50 +97,32 @@ include('config.php');
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="whatsapp" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://wa.me/917666529550?text=Hi"><img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/whatsapp-logo.png"
+                <a class="whatsapp" href="https://wa.me/917666529550?text=Hi"><img src="img/whatsapp-logo.png"
                     alt="whatsapp" /></a>
               </div>
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
                 <ul class="nav navbar-nav navbar-right">
                   <li>
-                    <a class="page-scroll" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }index.php">Home</a>
+                    <a class="page-scroll" href="index.php">Home</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }about.php">About</a>
+                    <a class="page-scroll" href="about.php">About</a>
                   </li>
                   <li class="active">
-                    <a class="page-scroll" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }services.php">Services</a>
+                    <a class="page-scroll" href="services.php">Services</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }team.php">Team</a>
+                    <a class="page-scroll" href="team.php">Team</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }portfolio.php">Portfolio</a>
+                    <a class="page-scroll" href="portfolio.php">Portfolio</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }career.php">Career</a>
+                    <a class="page-scroll" href="career.php">Career</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }contact.php">Contact</a>
+                    <a class="page-scroll" href="contact.php">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -229,12 +177,8 @@ include('config.php');
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
             <h3 style="margin-top: 10px">
-              <a class="services-icon" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.logicerp.com">
-                <img style="width: 400px" src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/logic-logo.png" alt="Logic ERP" />
+              <a class="services-icon" href="https://www.logicerp.com">
+                <img style="width: 400px" src="img/logic-logo.png" alt="Logic ERP" />
               </a>
             </h3>
           </div>
@@ -347,9 +291,7 @@ include('config.php');
                             font-family: 'Times New Roman', Times, serif;
                             color: #000;
                           ">
-                        <img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/retail.png" alt="retail" width="50px" /><br />Retail
+                        <img src="img/retail.png" alt="retail" width="50px" /><br />Retail
                       </h4>
                       <ul>
                         <li>
@@ -379,9 +321,7 @@ include('config.php');
                             font-family: 'Times New Roman', Times, serif;
                             color: #000;
                           ">
-                        <img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/dst.png" alt="distribution" width="50px" /><br />Distribution
+                        <img src="img/dst.png" alt="distribution" width="50px" /><br />Distribution
                       </h4>
                       <ul>
                         <li>
@@ -412,9 +352,7 @@ include('config.php');
                             font-family: 'Times New Roman', Times, serif;
                             color: #000;
                           ">
-                        <img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/mfg.png" alt="manufacturing" width="50px" /><br />Manufacturing
+                        <img src="img/mfg.png" alt="manufacturing" width="50px" /><br />Manufacturing
                       </h4>
                       <ul>
                         <li>
@@ -444,9 +382,7 @@ include('config.php');
           <!-- End verticals Area -->
         </div>
         <div class="text-center">
-          <a style="margin-top: 20px; margin-bottom: 20px" class="btn btn-primary" href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.logicerp.com">Click
+          <a style="margin-top: 20px; margin-bottom: 20px" class="btn btn-primary" href="https://www.logicerp.com">Click
             Here To View More >>
           </a>
         </div>
@@ -480,9 +416,7 @@ include('config.php');
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
             <h3 style="margin-top: 20px; font-weight: 600">
-              <img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/web.png" alt="web icon" />
+              <img src="img/web.png" alt="web icon" />
               <br />Web Development
             </h3>
           </div>
@@ -506,9 +440,7 @@ include('config.php');
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
             <h3 style="margin-top: 20px; font-weight: 600">
-              <img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/digital.png" alt="digital marketing icon" /><br />Digital Marketing
+              <img src="img/digital.png" alt="digital marketing icon" /><br />Digital Marketing
             </h3>
           </div>
         </div>
@@ -532,9 +464,7 @@ include('config.php');
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
             <h3 style="margin-top: 20px; font-weight: 600">
-              <img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/phtotgraphy.png" alt="photography icon" /><br />Photography
+              <img src="img/phtotgraphy.png" alt="photography icon" /><br />Photography
             </h3>
           </div>
         </div>
@@ -707,9 +637,7 @@ include('config.php');
             <br />
 
             <iframe
-              src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.0580958607065!2d73.86789347409753!3d18.435671171764298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ebe2a7e31227%3A0x20e94cf0ac6d1f6f!2sKhopade%20Nagar!5e0!3m2!1sen!2sin!4v1691771472764!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.0580958607065!2d73.86789347409753!3d18.435671171764298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ebe2a7e31227%3A0x20e94cf0ac6d1f6f!2sKhopade%20Nagar!5e0!3m2!1sen!2sin!4v1691771472764!5m2!1sen!2sin"
               width="100%" height="430" style="border: 0" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
             <!-- End Map -->
@@ -772,35 +700,21 @@ include('config.php');
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>About Us</h4>
             <ul>
-              <li><i class="fa fa-chevron-right"></i> <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }/">Home</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }about.php">About us</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }services.php">Our services</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="about.php">About us</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="services.php">Our services</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-chevron-right"></i> <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }t&c.php">Terms & Conditions</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }privacy-policy.php">Privacy Policies</a></li>
-              <li><i class="fa fa-chevron-right"></i><a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }ship-policy.php">Shipping & Delivery
+              <li><i class="fa fa-chevron-right"></i> <a href="t&c.php">Terms & Conditions</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="privacy-policy.php">Privacy Policies</a></li>
+              <li><i class="fa fa-chevron-right"></i><a href="ship-policy.php">Shipping & Delivery
                   Policy</a></li>
               </li>
-              <li><i class="fa fa-chevron-right"></i> <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }r&c.php">Refund & Cancellation</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="r&c.php">Refund & Cancellation</a></li>
             </ul>
           </div>
 
@@ -819,27 +733,19 @@ include('config.php');
               <div class="footer-icons">
                 <ul>
                   <li>
-                    <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.facebook.com/profile.php?id=100094703150978" target="_blank"><i
+                    <a href="https://www.facebook.com/profile.php?id=100094703150978" target="_blank"><i
                         class="fa fa-facebook"></i></a>
                   </li>
                   <li>
-                    <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.linkedin.com/company/mihu-infotech/" target="_blank"><i
+                    <a href="https://www.linkedin.com/company/mihu-infotech/" target="_blank"><i
                         class="fa fa-linkedin"></i></a>
                   </li>
                   <li>
-                    <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.instagram.com/mihu_infotech/" target="_blank"><i
+                    <a href="https://www.instagram.com/mihu_infotech/" target="_blank"><i
                         class="fa fa-instagram"></i></a>
                   </li>
                   <li>
-                    <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.youtube.com/@LOGICERP" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/@LOGICERP" target="_blank"><i class="fa fa-youtube"></i></a>
                   </li>
                 </ul>
               </div>
@@ -876,9 +782,7 @@ include('config.php');
             </div>
             <div class="credits white">
               Designed by
-              <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.mihusystems.in">Mihu <span style="color:white">Systems</span></a>
+              <a href="https://www.mihusystems.in">Mihu <span style="color:white">Systems</span></a>
             </div>
           </div>
         </div>
@@ -888,71 +792,37 @@ include('config.php');
 
   <div id="festival-img">
     <span id="close-festiv-img">x</span>
-    <img src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }img/Black and Gold Happy New Year Greeting Instagram Post (1).png" alt="Happy New Year">
+    <img src="img/Black and Gold Happy New Year Greeting Instagram Post (1).png" alt="Happy New Year">
   </div>
-  <a href="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
   <script>
     $('#close-festiv-img').on('click', function() {
       $('#festival-img').hide();
     })
   </script>
   <!-- JavaScript Libraries -->
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/jquery/jquery.min.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/venobox/venobox.min.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/knob/jquery.knob.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/wow/wow.min.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/parallax/parallax.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/easing/easing.min.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/appear/jquery.appear.js"></script>
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }contactform/contactform.js"></script>
+  <script src="contactform/contactform.js"></script>
 
-  <script src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }js/main.js"></script>
+  <script src="js/main.js"></script>
   <!-- Google tag (gtag.js) -->
 
-  <script async src="// if (!isset($_GET['q'])) {
-//   header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
-// }https://www.googletagmanager.com/gtag/js?id=G-PGWHHR82DT"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGWHHR82DT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
