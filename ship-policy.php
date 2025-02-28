@@ -1,8 +1,3 @@
-<?php
-if (!isset($_GET['page'])) {
-    include('home.php');
-}
-?>
 <!-- Start Bottom Header -->
 <div class="header-bg page-area">
     <div class="home-overly"></div>

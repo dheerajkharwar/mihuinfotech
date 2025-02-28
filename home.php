@@ -1,8 +1,3 @@
-<?php
-if (!isset($_GET['page'])) {
-    include('home.php');
-}
-?>
 <!-- header end -->
 <!-- Start Slider Area -->
 <div id="home" class="slider-area">
