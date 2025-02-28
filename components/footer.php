@@ -163,22 +163,22 @@
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <!-- JavaScript Libraries -->
-<script src="lib/jquery/jquery.min.js?v=1.0"></script>
-<script src="lib/bootstrap/js/bootstrap.min.js?v=1.0"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js?v=1.0"></script>
-<script src="lib/venobox/venobox.min.js?v=1.0"></script>
-<script src="lib/knob/jquery.knob.js?v=1.0"></script>
-<script src="lib/wow/wow.min.js?v=1.0"></script>
-<script src="lib/parallax/parallax.js?v=1.0"></script>
-<script src="lib/easing/easing.min.js?v=1.0"></script>
-<script src="lib/nivo-slider/js/jquery.nivo.slider.js?v=1.0" type="text/javascript"></script>
-<script src="lib/appear/jquery.appear.js?v=1.0"></script>
-<script src="lib/isotope/isotope.pkgd.min.js?v=1.0"></script>
+<script src="lib/jquery/jquery.min.js?v=1.1"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js?v=1.1"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js?v=1.1"></script>
+<script src="lib/venobox/venobox.min.js?v=1.1"></script>
+<script src="lib/knob/jquery.knob.js?v=1.1"></script>
+<script src="lib/wow/wow.min.js?v=1.1"></script>
+<script src="lib/parallax/parallax.js?v=1.1"></script>
+<script src="lib/easing/easing.min.js?v=1.1"></script>
+<script src="lib/nivo-slider/js/jquery.nivo.slider.js?v=1.1" type="text/javascript"></script>
+<script src="lib/appear/jquery.appear.js?v=1.1"></script>
+<script src="lib/isotope/isotope.pkgd.min.js?v=1.1"></script>
 
 <!-- Contact Form JavaScript File -->
-<script src="contactform/contactform.js?v=1.0"></script>
+<script src="contactform/contactform.js?v=1.1"></script>
 
-<script src="js/main.js?v=1.0"></script>
+<script src="js/main.js?v=1.1"></script>
 </body>
 
 </html>
