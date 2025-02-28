@@ -1,6 +1,6 @@
 <?php
 if (!isset($_GET['page'])) {
-  include('404.php');
+  include('home.php');
 }
 ?>
 <!-- Start Bottom Header -->

@@ -71,6 +71,6 @@ if (isset($_POST['name'])) {
     mail($to, $subject, $message, $headers);
     echo "<script>alert('You Are Subscribed For Our News And Promotions!');window.location.href = 'contact.php';</script>";
 } else {
-    header("location: contact.php");
+    header("location: ?page=contact");
 }
 ?>
