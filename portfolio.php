@@ -1,6 +1,9 @@
 <?php
-include('components/header.php');
-?> <!-- Start Bottom Header -->
+if (!isset($_GET['page'])) {
+  include('404.php');
+}
+?>
+<!-- Start Bottom Header -->
 <div class="header-bg page-area">
   <div class="home-overly"></div>
   <div class="container">
@@ -444,6 +447,3 @@ include('components/header.php');
 </div>
 <hr />
 <!--End portfolio area -->
-<?php
-include("components/footer.php");
-?>

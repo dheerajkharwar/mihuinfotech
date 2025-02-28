@@ -9,7 +9,7 @@ include('config');
 
 <head>
     <meta charset="utf-8" />
-    <title>Mihu Systems</title>
+    <title>Mihu Systems | <?= ucfirst($_GET['page']) ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
         content="IT company, Mihu Systems, technology solutions, web development, mobile app development, software solutions, IT consulting, digital transformation, cybersecurity, cloud services, AI, machine learning, data analytics, IT infrastructure, e-commerce solutions, software outsourcing, enterprise solutions, erp, logic, logic erp, erp software, apparel retail software, apparel distribution software, apparel manufacturing software"
@@ -90,26 +90,26 @@ include('config');
                             <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1"
                                 id="navbar-example">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active">
-                                        <a class="page-scroll" href="/">Home</a>
+                                    <li class="<?= $_GET['page'] == 'home' ? 'active' : '' ?>">
+                                        <a class="page-scroll" href="?page=home">Home</a>
                                     </li>
-                                    <li>
-                                        <a class="page-scroll" href="about">About</a>
+                                    <li class="<?= $_GET['page'] == 'about' ? 'active' : '' ?>">
+                                        <a class="page-scroll" href="?page=about">About</a>
                                     </li>
-                                    <li>
-                                        <a class="page-scroll" href="services">Services</a>
+                                    <li class="<?= $_GET['page'] == 'services' ? 'active' : '' ?>">
+                                        <a class="page-scroll" href="?page=services">Services</a>
                                     </li>
-                                    <li>
-                                        <a class="page-scroll" href="team">Team</a>
+                                    <li class="<?= $_GET['page'] == 'team' ? 'active' : '' ?>">
+                                        <a class="page-scroll" href="?page=team">Team</a>
                                     </li>
-                                    <li>
-                                        <a class="page-scroll" href="portfolio">Portfolio</a>
+                                    <li class="<?= $_GET['page'] == 'portfolio' ? 'active' : '' ?>">
+                                        <a class="page-scroll" href="?page=portfolio">Portfolio</a>
                                     </li>
-                                    <li>
-                                        <a class="page-scroll" href="career">Career</a>
+                                    <li class="<?= $_GET['page'] == 'career' ? 'active' : '' ?>">
+                                        <a class="page-scroll" href="?page=career">Career</a>
                                     </li>
-                                    <li>
-                                        <a class="page-scroll" href="contact">Contact</a>
+                                    <li class="<?= $_GET['page'] == 'contact' ? 'active' : '' ?>">
+                                        <a class="page-scroll" href="?page=contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>

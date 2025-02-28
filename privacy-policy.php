@@ -1,5 +1,7 @@
 <?php
-include('components/header.php');
+if (!isset($_GET['page'])) {
+    include('404.php');
+}
 ?>
 <!-- Start Bottom Header -->
 <div class="header-bg page-area">
@@ -22,6 +24,3 @@ include('components/header.php');
     </div>
 </div>
 <!-- END Header -->
-<?php
-include("components/footer.php");
-?>
