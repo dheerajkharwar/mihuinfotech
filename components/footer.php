@@ -39,10 +39,6 @@
                                 <label for="message">Message:</label>
                                 <textarea id="message" name="message" rows="4" required></textarea>
                             </div>
-                            <!-- <input type="hidden" name="_next" value="https://mihuinfotech.com/thanks.php" />
-                <input type="hidden" name="_subject" value="Mihu Systems - Contact Form - New Submission!" />
-                <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_cc" value="ranjan.mihuinfotech@gmail.com,dheeraj.mihuinfotech@gmail.com" /> -->
                             <div class="form-group">
                                 <input type="submit" value="Submit" />
                             </div>
@@ -75,20 +71,20 @@
                     <h4>About Us</h4>
                     <ul>
                         <li><i class="fa fa-chevron-right"></i> <a href="/">Home</a></li>
-                        <li><i class="fa fa-chevron-right"></i> <a href="about.php">About us</a></li>
-                        <li><i class="fa fa-chevron-right"></i> <a href="services.php">Our services</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="?page=about">About us</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="?page=services">Our services</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="fa fa-chevron-right"></i> <a href="t&c.php">Terms & Conditions</a></li>
-                        <li><i class="fa fa-chevron-right"></i> <a href="privacy-policy.php">Privacy Policies</a></li>
-                        <li><i class="fa fa-chevron-right"></i><a href="ship-policy.php">Shipping & Delivery
+                        <li><i class="fa fa-chevron-right"></i> <a href="?page=tc">Terms & Conditions</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="?page=privacy-policy">Privacy Policies</a></li>
+                        <li><i class="fa fa-chevron-right"></i><a href="?page=ship-policy">Shipping & Delivery
                                 Policy</a></li>
                         </li>
-                        <li><i class="fa fa-chevron-right"></i> <a href="r&c.php">Refund & Cancellation</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="?page=rc">Refund & Cancellation</a></li>
                     </ul>
                 </div>
 
@@ -107,7 +103,7 @@
                         <div class="footer-icons">
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100094703150978" target="_blank"><i
+                                    <a href="https://www.facebook.com/profile?id=100094703150978" target="_blank"><i
                                             class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
