@@ -6,7 +6,7 @@ include('config');
 
 <head>
     <meta charset="utf-8" />
-    <title>Mihu Systems<?= isset($_GET['page']) ? " | " . ucfirst($_GET['page']) : "" ?></title>
+    <title>Mihu Systems | <?= ucfirst($_GET['page']) ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
         content="IT company, Mihu Systems, technology solutions, web development, mobile app development, software solutions, IT consulting, digital transformation, cybersecurity, cloud services, AI, machine learning, data analytics, IT infrastructure, e-commerce solutions, software outsourcing, enterprise solutions, erp, logic, logic erp, erp software, apparel retail software, apparel distribution software, apparel manufacturing software"
