@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include('config');
 // if (!isset($_GET['q'])) {
 //     header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
 // }
@@ -68,7 +68,7 @@ include('config.php');
                             <div class="navbar-header">
                                 <!-- Brand -->
                                 <img class="float-l" src="img/logo.png" alt="Mihu Systems" title="Mihu Systems" />
-                                <a class="navbar-brand page-scroll sticky-logo" href="index.php">
+                                <a class="navbar-brand page-scroll sticky-logo" href="/">
                                     <h1 class="brand-name"><span>Mihu </span>Systems</h1>
                                     <p class="tagline"
                                         style="font-size: 11px;color: white;width: fit-content;margin: auto;">
@@ -91,25 +91,25 @@ include('config.php');
                                 id="navbar-example">
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class="active">
-                                        <a class="page-scroll" href="index.php">Home</a>
+                                        <a class="page-scroll" href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="about.php">About</a>
+                                        <a class="page-scroll" href="about">About</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="services.php">Services</a>
+                                        <a class="page-scroll" href="services">Services</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="team.php">Team</a>
+                                        <a class="page-scroll" href="team">Team</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="portfolio.php">Portfolio</a>
+                                        <a class="page-scroll" href="portfolio">Portfolio</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="career.php">Career</a>
+                                        <a class="page-scroll" href="career">Career</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="contact.php">Contact</a>
+                                        <a class="page-scroll" href="contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
