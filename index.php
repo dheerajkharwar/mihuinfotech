@@ -1,9 +1,7 @@
 <?php
 include('components/header.php');
-if (!isset($_GET['page'])) {
-    include('home.php');
-}
-if ($_GET['page'] == 'home') {
+
+if (!isset($_GET['page']) || $_GET['page'] == 'home') {
     include('home.php');
 } elseif ($_GET['page'] == 'about') {
     include('about.php');
