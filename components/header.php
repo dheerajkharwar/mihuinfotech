@@ -9,49 +9,93 @@ include('config');
 
 <head>
     <meta charset="utf-8" />
-    <title>Mihu Systems | <?= ucfirst($_GET['page']) ?></title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta
-        content="IT company, Mihu Systems, technology solutions, web development, mobile app development, software solutions, IT consulting, digital transformation, cybersecurity, cloud services, AI, machine learning, data analytics, IT infrastructure, e-commerce solutions, software outsourcing, enterprise solutions, erp, logic, logic erp, erp software, apparel retail software, apparel distribution software, apparel manufacturing software"
-        name="keywords" />
-    <meta
-        content="Mihu Systems is a leading IT company providing innovative solutions for businesses worldwide. We offer a comprehensive range of services, including web development, mobile app development, software solutions, and IT consulting. Our team of skilled professionals is committed to delivering top-notch products and services tailored to meet your specific needs. Partner with Mihu Systems for cutting-edge technology solutions and take your business to new heights."
-        name="description" />
+    <title>Mihu Systems<?php
+                        include('config');
+                        // if (!isset($_GET['q'])) {
+                        //     header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
+                        // }
+                        ?>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon" />
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+<head>
+    <meta charset="utf-8" />
+    <title>Mihu Systems<?php
+                        include('config');
+                        // if (!isset($_GET['q'])) {
+                        //     header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
+                        // }
+                        ?>
+        <!DOCTYPE html>
+        <html lang="en">
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
-        rel="stylesheet" />
+        <head>
+            <meta charset="utf-8" />
+            <title>Mihu Systems<?php
+                                include('config');
+                                // if (!isset($_GET['q'])) {
+                                //     header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
+                                // }
+                                ?>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<head>
+    <meta charset="utf-8" />
+    <title>Mihu Systems<?php
+                        include('config');
+                        // if (!isset($_GET['q'])) {
+                        //     header('Location: ' . $currentURL . '?q=' . generateRandomString(64));
+                        // }
+                        ?>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet" />
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/venobox/venobox.css" rel="stylesheet" />
+<head>
+    <meta charset="utf-8" />
+    <title>Mihu Systems<?= isset($_GET['page']) ? " | " . ucfirst($_GET['page']) : "" ?></title>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+            <meta
+                content="IT company, Mihu Systems, technology solutions, web development, mobile app development, software solutions, IT consulting, digital transformation, cybersecurity, cloud services, AI, machine learning, data analytics, IT infrastructure, e-commerce solutions, software outsourcing, enterprise solutions, erp, logic, logic erp, erp software, apparel retail software, apparel distribution software, apparel manufacturing software"
+                name="keywords" />
+            <meta
+                content="Mihu Systems is a leading IT company providing innovative solutions for businesses worldwide. We offer a comprehensive range of services, including web development, mobile app development, software solutions, and IT consulting. Our team of skilled professionals is committed to delivering top-notch products and services tailored to meet your specific needs. Partner with Mihu Systems for cutting-edge technology solutions and take your business to new heights."
+                name="description" />
 
-    <!-- Nivo Slider Theme -->
-    <link href="css/nivo-slider-theme.css" rel="stylesheet" />
+            <!-- Favicons -->
+            <link href="img/favicon.png" rel="icon" />
+            <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet" />
+            <!-- Google Fonts -->
+            <link
+                href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+                rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/style1.css">
+            <!-- Bootstrap CSS File -->
+            <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Responsive Stylesheet File -->
-    <link href="css/responsive.css" rel="stylesheet" />
+            <!-- Libraries CSS Files -->
+            <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet" />
+            <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet" />
+            <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet" />
+            <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+            <link href="lib/animate/animate.min.css" rel="stylesheet" />
+            <link href="lib/venobox/venobox.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/team-img.css" />
-    <link rel="stylesheet" href="contactform/contactform.css" />
-</head>
+            <!-- Nivo Slider Theme -->
+            <link href="css/nivo-slider-theme.css" rel="stylesheet" />
+
+            <!-- Main Stylesheet File -->
+            <link href="css/style.css" rel="stylesheet" />
+
+            <link rel="stylesheet" href="css/style1.css">
+
+            <!-- Responsive Stylesheet File -->
+            <link href="css/responsive.css" rel="stylesheet" />
+
+            <link rel="stylesheet" href="css/team-img.css" />
+            <link rel="stylesheet" href="contactform/contactform.css" />
+        </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
     <div id="preloader"></div>
