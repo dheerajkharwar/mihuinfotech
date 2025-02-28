@@ -27,6 +27,6 @@ if (isset($_GET['page'])) {
         header('Location: 404.php');
     }
 } else {
-    include('home.php');
+    header('Location: ?page=home');
 }
 include("components/footer.php");
