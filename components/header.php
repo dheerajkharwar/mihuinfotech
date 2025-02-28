@@ -51,17 +51,10 @@ include('config.php');
 
     <link rel="stylesheet" href="css/team-img.css" />
     <link rel="stylesheet" href="contactform/contactform.css" />
-    <style>
-        #preloader {
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
-    <div id="preloader" style="width: 120px;height:120px;"></div>
+    <div id="preloader"></div>
 
     <header>
         <!-- header-area start -->
