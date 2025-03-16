@@ -2,7 +2,7 @@
 <?php
 if (isset($_POST['name'])) {
 
-    $to = "dheerajkharwar9@gmail.com, mihu.infotech@gmail.com";
+    $to = "dheerajkharwar9@gmail.com";
     $subject = "Contact Form Submission - Mihu Systems";
     $message = "
 <html>
