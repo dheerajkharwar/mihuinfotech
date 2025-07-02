@@ -275,7 +275,7 @@
                                     digital marketing strategy to reach a broader audience,
                                     enhance brand awareness, and drive business growth.
                                     Through website optimization, SEO, content marketing,
-                                    social media engagement, email campaigns, PPC advertising,
+                                    social media engagement, email campaigns,
                                     influencer collaborations, webinars, customer
                                     testimonials, and performance tracking, the company
                                     showcases its expertise and nurtures leads effectively.
@@ -619,15 +619,9 @@
                             <p>Subscribe us to get latest news regarding business!</p>
                             <div class="subs-feilds">
                                 <div class="suscribe-input">
-                                    <!-- <form action="https://formsubmit.co/omprakash.fbt@gmail.com" method="post"> -->
                                     <form action="send_mail.php" method="post">
                                         <input type="email" name="email_sub" class="email form-control width-80"
                                             id="sus_email" placeholder="Email" required />
-                                        <!-- <input type="hidden" name="_subject"
-                                                value="Mihu Systems - New Subscriber!" />
-                                            <input type="hidden" name="_captcha" value="false" />
-                                            <input type="hidden" name="_cc"
-                                                value="ranjan.mihuSystems@gmail.com,dheeraj.mihuSystems@gmail.com" /> -->
                                         <button type="submit" id="sus_submit" class="add-btn width-20">
                                             Subscribe
                                         </button>

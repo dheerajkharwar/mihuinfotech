@@ -43,7 +43,7 @@ if (isset($_POST['name'])) {
     mail($to, $subject, $message, $headers);
     echo "<script>alert('Form Submitted successfully');window.location.href = 'contact.php';</script>";
 } else if (isset($_POST['email_sub'])) {
-    $to = "dheerajkharwar9@gmail.com, mihu.infotech@gmail.com";
+    $to = "dheerajkharwar9@gmail.com";
     $subject = "New Subscriber - Mihu Systems";
     $message = "
                 <html>

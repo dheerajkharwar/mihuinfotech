@@ -310,7 +310,7 @@
         marketing strategy to reach a broader audience, enhance brand
         awareness, and drive business growth. Through website optimization,
         SEO, content marketing, social media engagement, email campaigns,
-        PPC advertising, influencer collaborations, webinars, customer
+        influencer collaborations, webinars, customer
         testimonials, and performance tracking, the company showcases its
         expertise and nurtures leads effectively. With a data-driven
         approach, Mihu Systems aims to solidify its position as a market

@@ -114,9 +114,9 @@
                                     <a href="https://www.instagram.com/mihu_infotech/" target="_blank"><i
                                             class="fa fa-instagram"></i></a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="https://www.youtube.com/@LOGICERP" target="_blank"><i class="fa fa-youtube"></i></a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -126,13 +126,9 @@
                 <div class="col-lg-3 col-md-6 footer-newsletter">
                     <h4>Subscription</h4>
                     <p>Please Subscribe us to get latest news and updates!
-                        <!-- <form action="https://formsubmit.co/omprakash.fbt@gmail.com" method="post"> -->
+                    </p>
                     <form action="send_mail.php" method="post">
                         <input type="email" name="email_sub" required /><input type="submit" value="Subscribe">
-                        <!-- <input type="hidden" name="_subject" value="Mihu Systems - New Subscriber!" />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_cc" value="ranjan.mihuinfotech@gmail.com,dheeraj.mihuinfotech@gmail.com" /> -->
-
                     </form>
                 </div>
 
