@@ -54,6 +54,12 @@
                     <li>Services already rendered (consulting, development work)</li>
                     <li>Promotional offers or discounted packages</li>
                 </ul>
+
+                <h3>5. How to Request a Refund</h3>
+                <p>To request a refund, please email us at <a href="mailto:omprakash@mihusystems.in">omprakash@mihusystems.in</a> with your order details, reason for the request, and any supporting evidence. We will respond within 3–5 business days.</p>
+
+                <h3>7. Contact Us</h3>
+                <p>If you have any questions regarding this Refund Policy, please reach out to our support team at <a href="mailto:omprakash@mihusystems.in">omprakash@mihusystems.in</a>.</p>
             </div>
         </div>
     </div>

@@ -54,7 +54,10 @@
                 <p>We may update these Terms and Conditions from time to time. Any changes will be effective immediately upon posting on this page. You are advised to review this page periodically.</p>
 
                 <h3>8. Governing Law</h3>
-                <p>These Terms and Conditions are governed by and construed in accordance with the laws of Maharashtra State, and you agree to submit to the exclusive jurisdiction of its courts.</p>
+                <p>These Terms and Conditions are governed by and construed in accordance with the laws of Maharashtra, and you agree to submit to the exclusive jurisdiction of its courts.</p>
+
+                <h3>9. Contact Us</h3>
+                <p>If you have any questions about these Terms and Conditions, please contact us at <a href="mailto:omprakash@mihusystems.in">omprakash@mihusystems.in</a>.</p>
             </div>
         </div>
     </div>

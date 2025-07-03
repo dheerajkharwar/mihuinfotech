@@ -52,10 +52,7 @@
                 <p>We offer international shipping on select items. Customers are responsible for customs duties, taxes, and any import regulations applicable in their country.</p>
 
                 <h3>6. Order Issues</h3>
-                <p>If you haven’t received your product or there is an issue with the delivery, please contact our support team within 7 days of the expected delivery date at <a href="mailto:support@example.com">support@example.com</a>.</p>
-
-                <h3>7. Contact Us</h3>
-                <p>If you have any questions about this Shipping Policy, please reach out to us at <a href="mailto:support@example.com">support@example.com</a>.</p>
+                <p>If you haven’t received your product or there is an issue with the delivery, please contact our support team within 7 days of the expected delivery date at <a href="mailto:omprakash@mihusystems.in">omprakash@mihusystems.in</a>.</p>
             </div>
         </div>
     </div>
