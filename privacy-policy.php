@@ -57,8 +57,6 @@
                 <h3>7. Changes to This Policy</h3>
                 <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the new policy on this page.</p>
 
-                <h3>8. Contact Us</h3>
-                <p>If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
             </div>
         </div>
     </div>
